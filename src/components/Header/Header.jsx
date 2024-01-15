@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./style.css"
-import Netflix from "../../static/Netflix-logo-red-black-png.png"
+// import Netflix from "../../static/Netflix-logo-red-black-png.png"
+import Netflix from "../../static/netflix-logo-png-large.png"
+
 
 const Header = () => {
   return (
@@ -38,7 +40,7 @@ const Header = () => {
                         </ul>
                     </div>
                     <div>
-                       <input type='search' />
+                       <input type='search' placeholder='Search' />
                     </div>
                 </div>
             </nav>
