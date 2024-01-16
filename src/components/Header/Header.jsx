@@ -42,7 +42,7 @@ const Header = () => {
                     </div>
                     <div>
                     {/* <IoSearchSharp /> */}
-                    <input type="text" className="form-control mr-sm-2" id="searchInput" placeholder="Search"/>                    
+                      <input type="text" className="form-control mr-sm-2" id="searchInput" placeholder="Search"/>                    
                     </div>
                 </div>
             </nav>

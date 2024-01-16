@@ -5,7 +5,8 @@ import "./style.css"
 import { FaPlay } from "react-icons/fa";
 // import { HiOutlinePlusSm } from "react-icons/hi";
 import { HiOutlinePlus } from "react-icons/hi";
-import { MdOutlinePlayCircleOutline } from "react-icons/md";
+// import { MdPlayCircleOutline } from "react-icons/md";
+// import { FaPlay } from "react-icons/fa";
 
 const HomeCraousel = () => {
   return (
@@ -28,7 +29,7 @@ const HomeCraousel = () => {
         </div>
 
         <div className='poster-trailer'>
-          <div className='poster-icon'><MdOutlinePlayCircleOutline /> WATCH TRAILER</div>
+          <p className=''><FaPlay /> <b>WATCH TRAILER</b></p>
         </div>
 
       </div>
