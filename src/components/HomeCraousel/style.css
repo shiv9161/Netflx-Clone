@@ -1,0 +1,31 @@
+.poster-logo {
+    width: 15%;
+    position: absolute;
+    top: 160px;
+    left: 100px;
+}
+
+.poster-para {
+    position: absolute;
+    top: 340px;
+    color: rgb(196, 195, 195);
+}
+
+.poster-line {
+    position: absolute;
+    top: 370px;
+    color: white;
+    text-align: justify;
+}
+
+.poster-btn {
+    position: absolute;
+    top: 480px;
+}
+
+.poster-trailer {
+    position: absolute;
+    top: 580px;
+    color: white;
+    font-size: 2rem;
+}

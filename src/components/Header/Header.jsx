@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import "./style.css"
 // import Netflix from "../../static/Netflix-logo-red-black-png.png"
 import Netflix from "../../static/netflix-logo-png-large.png"
+// import { IoSearchSharp } from "react-icons/io5";
 
 
 const Header = () => {
@@ -40,7 +41,8 @@ const Header = () => {
                         </ul>
                     </div>
                     <div>
-                       <input type='search' placeholder='Search' />
+                    {/* <IoSearchSharp /> */}
+                    <input type="text" className="form-control mr-sm-2" id="searchInput" placeholder="Search"/>                    
                     </div>
                 </div>
             </nav>

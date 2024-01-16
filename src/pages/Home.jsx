@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeCraousel from '../components/HomeCraousel'
+import HomeCraousel from '../components/HomeCraousel/HomeCraousel'
 
 const Home = () => {
   return (
