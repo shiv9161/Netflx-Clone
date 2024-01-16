@@ -29,7 +29,7 @@ const HomeCraousel = () => {
         </div>
 
         <div className='poster-trailer'>
-          <p className=''><FaPlay /> <b>WATCH TRAILER</b></p>
+          <p className=''><FaPlay /><b> WATCH TRAILER</b></p>
         </div>
 
       </div>
