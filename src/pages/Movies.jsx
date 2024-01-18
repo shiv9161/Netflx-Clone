@@ -18,7 +18,7 @@ const Movies = () => {
       {
         data.map((item)=> {
           return(
-            <div className="card d-flex" style={{ width: '18rem' }}>
+            <div className="card" style={{ width: '18rem', display: "inline-block" }}>
             <img src={item.image} className="card-img-top" alt="..." />
             <div className="card-body">
               <h5 className="card-title">{item.movie}</h5>
