@@ -24,7 +24,7 @@ const HomeCraousel = () => {
         </div>
 
         <div className='poster-btn'>
-          <button className='btn btn-danger'><FaPlay /> PLAY</button>
+          <button className='btn btn-danger' style={{marginRight: "10px"}}><FaPlay /> PLAY</button>
           <button className='btn btn-primary'><HiOutlinePlus /> MY LIST</button>
         </div>
 

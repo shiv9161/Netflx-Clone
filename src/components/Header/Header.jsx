@@ -25,16 +25,16 @@ const Header = () => {
                     </button>
                     <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                         <ul className="navbar-nav">
-                            <li className="nav-item header-line">
+                            <li className="nav-item header-line" style={{marginRight: "10px"}}>
                                 <Link className="nav-link active text-white" to="/">Home</Link>
                             </li>
-                            <li className="nav-item header-line">
+                            <li className="nav-item header-line" style={{marginRight: "10px"}}>
                                 <Link className="nav-link active text-white" to="/tvshows">TV Shows</Link>
                             </li>
-                            <li className="nav-item header-line">
+                            <li className="nav-item header-line" style={{marginRight: "10px"}}>
                                 <Link className="nav-link active text-white" to="/movies">Movies</Link>
                             </li>
-                            <li className="nav-item header-line">
+                            <li className="nav-item header-line" style={{marginRight: "10px"}}>
                                 <Link className="nav-link active text-white" to="/latest">Latest</Link>
                             </li>
                             {/* Add more items as needed */}

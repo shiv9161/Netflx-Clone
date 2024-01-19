@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react'
+import Footer from '../components/Footer/Footer'
 
 const Movies = () => {
   const [data, setData] = useState([])
@@ -28,6 +29,7 @@ const Movies = () => {
           )
         })
       }
+      <Footer />
     </div>
   )
 }
