@@ -11,7 +11,7 @@
     "image_url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
   },
   {
-    "title": "The Shawshank Redemption",
+    "title": "Shawshank",
     "year": 1994,
     "director": "Frank Darabont",
     "genre": [
@@ -30,7 +30,7 @@
     "image_url": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
-    "title": "The Dark Knight",
+    "title": "Dark Knight",
     "year": 2008,
     "director": "Christopher Nolan",
     "genre": [
@@ -41,7 +41,7 @@
     "image_url": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
   },
   {
-    "title": "The Godfather",
+    "title": "Godfather",
     "year": 1972,
     "director": "Francis Ford Coppola",
     "genre": [
@@ -58,7 +58,7 @@
       "Drama",
       "Romance"
     ],
-    "image_url": "https://example.com/forrest_gump.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "title": "The Matrix",
@@ -68,7 +68,7 @@
       "Action",
       "Sci-Fi"
     ],
-    "image_url": "https://example.com/matrix.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "title": "Fight Club",
@@ -77,21 +77,10 @@
     "genre": [
       "Drama"
     ],
-    "image_url": "https://example.com/fight_club.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
   },
   {
-    "title": "The Lord of the Rings: The Fellowship of the Ring",
-    "year": 2001,
-    "director": "Peter Jackson",
-    "genre": [
-      "Action",
-      "Adventure",
-      "Drama"
-    ],
-    "image_url": "https://example.com/lotr_fellowship.jpg"
-  },
-  {
-    "title": "Schindler's List",
+    "title": "Schindler",
     "year": 1993,
     "director": "Steven Spielberg",
     "genre": [
@@ -99,6 +88,6 @@
       "Drama",
       "History"
     ],
-    "image_url": "https://example.com/schindlers_list.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
   }
 ]
