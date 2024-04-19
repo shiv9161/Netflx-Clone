@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+// importing css
+import "../App.css";
 
 const Latest = () => {
   const [data, setData] = useState([]);
@@ -31,17 +33,17 @@ const Latest = () => {
       {data.map((item) => {
         return (
           <div
-            className="card"
-            style={{ width: "10rem", display: "inline-block" }}
+            className="card latesCard"
+            // style={{ width: "10rem" }}
           >
             <img
               src={item.image_url}
-              style={{ width: "100%" }}
-              className="card-img-top img-fluid"
+              // style={{ width: "100%" }}
+              className="card-img-top cardLatest-img"
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title">{item.title}</h5>
+              <h5 className="card-title text-center">{item.title}</h5>
             </div>
           </div>
         );

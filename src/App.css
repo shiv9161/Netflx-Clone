@@ -3,3 +3,13 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.latesCard{
+    display: inline-block;
+    margin: 14px;
+    width: 14rem;}
+
+.cardLatest-img{
+    width: 100%;
+    height: 290px;
+}

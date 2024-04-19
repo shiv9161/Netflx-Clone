@@ -1,0 +1,114 @@
+[
+  {
+    "title": "Breaking Bad",
+    "genre": "Drama",
+    "network": "AMC",
+    "release_year": 2008,
+    "rating": 9.5,
+    "image": "https://m.media-amazon.com/images/M/MV5BYmQ4YWMxYjUtNjZmYi00MDQ1LWFjMjMtNjA5ZDdiYjdiODU5XkEyXkFqcGdeQXVyMTMzNDExODE5._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Game of Thrones",
+    "genre": "Fantasy",
+    "network": "HBO",
+    "release_year": 2011,
+    "rating": 9.3,
+    "image": "https://m.media-amazon.com/images/M/MV5BN2IzYzBiOTQtNGZmMi00NDI5LTgxMzMtN2EzZjA1NjhlOGMxXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Friends",
+    "genre": "Comedy",
+    "network": "NBC",
+    "release_year": 1994,
+    "rating": 8.9,
+    "image": "https://m.media-amazon.com/images/M/MV5BNDVkYjU0MzctMWRmZi00NTkxLTgwZWEtOWVhYjZlYjllYmU4XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_.jpg"
+  },
+  {
+    "title": "Stranger Things",
+    "genre": "Sci-Fi, Horror",
+    "network": "Netflix",
+    "release_year": 2016,
+    "rating": 8.7,
+    "image" : "https://m.media-amazon.com/images/M/MV5BMDRjYWI5NTMtZTYzZC00NTg4LWI3NjMtNmI3MTdhMWQ5MGJlXkEyXkFqcGdeQXVyNTg4MDc4Mg@@._V1_.jpg"
+  },
+  {
+    "title": "The Office",
+    "genre": "Comedy",
+    "network": "NBC",
+    "release_year": 2005,
+    "rating": 8.9,
+    "image" : "https://m.media-amazon.com/images/M/MV5BMDNkOTE4NDQtMTNmYi00MWE0LWE4ZTktYTc0NzhhNWIzNzJiXkEyXkFqcGdeQXVyMzQ2MDI5NjU@._V1_.jpg"
+  },
+  {
+    "title": "Sherlock",
+    "genre": "Crime, Drama, Mystery",
+    "network": "BBC",
+    "release_year": 2010,
+    "rating": 9.1,
+    "image": "https://m.media-amazon.com/images/M/MV5BNmJiNDk2MjYtMThkZC00ODU4LThkYmItYjc4ODViYWEyMTg2XkEyXkFqcGdeQXVyMjQ1NjEyNzE@._V1_.jpg"
+  },
+  {
+    "title": "The Mandalorian",
+    "genre": "Sci-Fi, Western",
+    "network": "Disney+",
+    "release_year": 2019,
+    "rating": 8.8,
+    "image": "https://m.media-amazon.com/images/M/MV5BMWI0OTJlYTItNzMwZi00YzRiLWJhMjItMWRlMDNhZjNiMzJkXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg"
+  },
+  {
+    "title": "The Crown",
+    "genre": "Biography, Drama, History",
+    "network": "Netflix",
+    "release_year": 2016,
+    "rating": 8.7,
+    "image": "https://m.media-amazon.com/images/M/MV5BODYxYjZkODQtYTMyZS00NTMwLTkzNmItZDZjZDJjMmIzMjk0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "The Simpsons",
+    "genre": "Animation, Comedy",
+    "network": "FOX",
+    "release_year": 1989,
+    "rating": 8.7,
+    "image": "https://m.media-amazon.com/images/M/MV5BYjFkMTlkYWUtZWFhNy00M2FmLThiOTYtYTRiYjVlZWYxNmJkXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Black Mirror",
+    "genre": "Drama, Sci-Fi, Thriller",
+    "network": "Netflix",
+    "release_year": 2011,
+    "rating": 8.8,
+    "image": "https://m.media-amazon.com/images/M/MV5BMmYxYzQxNDAtZjQ1NS00MTFkLTkxMDYtY2RiZTAwOGQ2NmRiXkEyXkFqcGdeQXVyNDY2MTk1ODk@._V1_.jpg"
+  },
+  {
+    "title": "The Witcher",
+    "genre": "Action, Adventure, Drama",
+    "network": "Netflix",
+    "release_year": 2019,
+    "rating": 8.2,
+    "image": "https://m.media-amazon.com/images/M/MV5BMDEwOWVlY2EtMWI0ZC00OWVmLWJmZGItYTk3YjYzN2Y0YmFkXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Big Bang Theory",
+    "genre": "Comedy",
+    "network": "CBS",
+    "release_year": 2007,
+    "rating": 8.1,
+    "image": "https://m.media-amazon.com/images/M/MV5BY2FmZTY5YTktOWRlYy00NmIyLWE0ZmQtZDg2YjlmMzczZDZiXkEyXkFqcGdeQXVyNjg4NzAyOTA@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Doctor Who",
+    "genre": "Adventure, Drama, Family",
+    "network": "BBC",
+    "release_year": 2005,
+    "rating": 8.6,
+    "image": "https://m.media-amazon.com/images/M/MV5BMjAyMTkzMDA5OV5BMl5BanBnXkFtZTgwMjUzNDMyMDE@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Sex Education",
+    "genre": "Sci-Fi, Horror",
+    "network": "Netflix",
+    "release_year": 2016,
+    "rating": 8.7,
+    "image": "https://m.media-amazon.com/images/M/MV5BNjJkYTI1MjAtNTcxZC00YmU5LWExMDAtZTg3YzRhMDNmYmEwXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg"
+  }
+]
