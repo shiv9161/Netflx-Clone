@@ -48,7 +48,7 @@ const Latest = () => {
             <input
               type="text"
               className="form-control"
-              placeholder="Search Shows"
+              placeholder="Search Latest"
               value={searchQuery}
               onChange={handleSearchChange}
             />
