@@ -4,6 +4,7 @@ import "../App.css";
 
 const Latest = () => {
   const [data, setData] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     getData();
@@ -25,12 +26,36 @@ const Latest = () => {
       });
   };
 
+  // Function to handle search input change
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  // Filter data based on search query
+  const filteredData = data.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <>
-      <p className="h2">
-        <b>List Movies</b>
-      </p>
-      {data.map((item) => {
+      {/* Search functionality */}
+      <div className="container mt-3">
+        <div className="row">
+          <div className="col">
+            <p className="text-start">Latest</p>
+          </div>
+          <div className="col-2">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search Shows"
+              value={searchQuery}
+              onChange={handleSearchChange}
+            />
+          </div>
+        </div>
+      </div>
+      {filteredData.map((item) => {
         return (
           <div
             className="card latesCard"
