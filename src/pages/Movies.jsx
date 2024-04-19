@@ -1,37 +1,76 @@
-import React, { useEffect, useState } from 'react'
-import Footer from '../components/Footer/Footer'
+import React, { useEffect, useState } from "react";
+import "../App.css";
 
-const Movies = () => {
-  const [data, setData] = useState([])
+const TvShows = () => {
+  const [data, setData] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
-  useEffect(()=> {
-    fetch("https://dummyapi.online/api/movies").then((result)=> {
-    result.json().then((resp)=>{
-      // console.log("result", resp)
-      setData(resp)
+  useEffect(() => {
+    getData();
+  }, []);
+
+  const getData = () => {
+    fetch("tvShows.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
     })
-  }) 
-  },[])
-  // console.log(data)
+      .then((response) => {
+        return response.json();
+      })
+      .then((myJson) => {
+        setData(myJson);
+      });
+  };
+
+  // Function to handle search input change
+  const handleSearchChange = (e) => {
+    setSearchQuery(e.target.value);
+  };
+
+  // Filter data based on search query
+  const filteredData = data.filter((item) =>
+    item.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
-    <div>
-      <p className='h1 text-center mt-3'>Movie List</p>
-      {
-        data.map((item)=> {
-          return(
-            <div className="card" style={{ width: '18rem', display: "inline-block" }}>
-            <img src={item.image} className="card-img-top" alt="..." />
+    <>
+      {/* Search functionality */}
+      <div className="container mt-3">
+        <div className="row">
+          <div className="col">
+            <p className="text-start">TV Shows</p>
+          </div>
+          <div className="col-2">
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search Shows"
+              value={searchQuery}
+              onChange={handleSearchChange}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Render filtered data */}
+      {filteredData.map((item) => {
+        return (
+          <div className="card latesCard" key={item.id}>
+            <img
+              src={item.image}
+              className="card-img-top cardLatest-img"
+              alt="latestImage"
+            />
             <div className="card-body">
-              <h5 className="card-title">{item.movie}</h5>
-              {/* <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> */}
+              <h5 className="card-title text-center">{item.title}</h5>
             </div>
           </div>
-          )
-        })
-      }
-      <Footer />
-    </div>
-  )
-}
+        );
+      })}
+    </>
+  );
+};
 
-export default Movies
+export default TvShows;
