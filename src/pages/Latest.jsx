@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 // importing css
 import "../App.css";
+import Footer from "../components/Footer/Footer"
 
 const Latest = () => {
   const [data, setData] = useState([]);
@@ -73,6 +74,7 @@ const Latest = () => {
           </div>
         );
       })}
+      <Footer />
     </>
   );
 };

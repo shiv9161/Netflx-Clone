@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
+import Footer from "../components/Footer/Footer";
 
 const TvShows = () => {
   const [data, setData] = useState([]);
@@ -69,6 +70,7 @@ const TvShows = () => {
           </div>
         );
       })}
+      <Footer />
     </>
   );
 };
