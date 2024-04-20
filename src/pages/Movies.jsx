@@ -58,7 +58,7 @@ const TvShows = () => {
       {/* Render filtered data */}
       {filteredData.map((item) => {
         return (
-          <div className="card latesCard" key={item.id}>
+          <div className="card latestCard" key={item.id}>
             <img
               src={item.image}
               className="card-img-top cardLatest-img"

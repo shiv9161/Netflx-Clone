@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 // importing css
 import "../App.css";
-import Footer from "../components/Footer/Footer"
+import Footer from "../components/Footer/Footer";
 
 const Latest = () => {
   const [data, setData] = useState([]);
@@ -58,18 +58,16 @@ const Latest = () => {
       </div>
       {filteredData.map((item) => {
         return (
-          <div
-            className="card latesCard"
-            // style={{ width: "10rem" }}
-          >
+          <div className="card latestCard" key={item.id}>
             <img
               src={item.image_url}
-              // style={{ width: "100%" }}
               className="card-img-top cardLatest-img"
               alt="..."
             />
             <div className="card-body">
-              <h5 className="card-title text-center">{item.title}</h5>
+              <h5 className="card-title text-center">
+                {item.title.slice(0, 15)}
+              </h5>
             </div>
           </div>
         );
