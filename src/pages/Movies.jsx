@@ -11,7 +11,7 @@ const TvShows = () => {
   }, []);
 
   const getData = () => {
-    fetch("tvShows.json", {
+    fetch("movies.json", {
       headers: {
         "Content-Type": "application/json",
         Accept: "application/json",
@@ -41,9 +41,9 @@ const TvShows = () => {
       <div className="container mt-3">
         <div className="row">
           <div className="col">
-            <p className="text-start">TV Shows</p>
+            <p className="text-start">Movies</p>
           </div>
-          <div className="col-2">
+          <div style={{ width: "270px" }}>
             <input
               type="text"
               className="form-control"
@@ -65,7 +65,9 @@ const TvShows = () => {
               alt="latestImage"
             />
             <div className="card-body">
-              <h5 className="card-title text-center">{item.title}</h5>
+              <h5 className="card-title text-center">
+                {item.title.slice(0, 15)}
+              </h5>
             </div>
           </div>
         );

@@ -1,0 +1,99 @@
+[
+    {
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "director": "Frank Darabont",
+      "year": 1994,
+      "rating": 9.3,
+      "image": "https://m.media-amazon.com/images/M/MV5BYTcxYTA0MjAtYzdjNC00ZmFmLTgwYWItMmVhYTY5ZGZhOWQzXkEyXkFqcGdeQXVyMTAyOTE2ODg0._V1_.jpg"
+    },
+    {
+      "title": "The Godfather",
+      "genre": "Crime",
+      "director": "Francis Ford Coppola",
+      "year": 1972,
+      "rating": 9.2,
+      "image": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "The Dark Knight",
+      "genre": "Action",
+      "director": "Christopher Nolan",
+      "year": 2008,
+      "rating": 9.0,
+      "image": "https://m.media-amazon.com/images/M/MV5BMTkyMjQ4ODk1NF5BMl5BanBnXkFtZTcwMjcxMTk2Mw@@._V1_.jpg"
+    },
+    {
+      "title": "Pulp Fiction",
+      "genre": "Crime",
+      "director": "Quentin Tarantino",
+      "year": 1994,
+      "rating": 8.9,
+      "image" : "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
+    },
+    {
+      "title": "The Lord of the Rings: The Return of the King",
+      "genre": "Adventure",
+      "director": "Peter Jackson",
+      "year": 2003,
+      "rating": 8.9,
+      "image": "https://m.media-amazon.com/images/M/MV5BNzA5ZDNlZWMtM2NhNS00NDJjLTk4NDItYTRmY2EwMWZlMTY3XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Forrest Gump",
+      "genre": "Drama",
+      "director": "Robert Zemeckis",
+      "year": 1994,
+      "rating": 8.8,
+      "image": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Inception",
+      "genre": "Action",
+      "director": "Christopher Nolan",
+      "year": 2010,
+      "rating": 8.8,
+      "image": "https://m.media-amazon.com/images/M/MV5BMTM0MjUzNjkwMl5BMl5BanBnXkFtZTcwNjY0OTk1Mw@@._V1_.jpg"
+    },
+    {
+      "title": "The Matrix",
+      "genre": "Action",
+      "director": "Lana Wachowski, Lilly Wachowski",
+      "year": 1999,
+      "rating": 8.7,
+      "image": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "The Silence of the Lambs",
+      "genre": "Crime",
+      "director": "Jonathan Demme",
+      "year": 1991,
+      "rating": 8.6,
+      "image": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Saving Private Ryan",
+      "genre": "Drama",
+      "director": "Steven Spielberg",
+      "year": 1998,
+      "rating": 8.6,
+      "image": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "The Departed",
+      "genre": "Crime",
+      "director": "Martin Scorsese",
+      "year": 2006,
+      "rating": 8.5,
+      "image": "https://m.media-amazon.com/images/M/MV5BZDYxN2IyNDktMDlhMi00ZDAzLWE3YjctNTJhODMxNmVkZTAzXkEyXkFqcGdeQXVyMjQ0NzE0MQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "title": "Gladiator",
+      "genre": "Action",
+      "director": "Ridley Scott",
+      "year": 2000,
+      "rating": 8.5,
+      "image": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    }
+  ]
+  
