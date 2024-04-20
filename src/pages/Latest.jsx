@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 // importing css
 import "../App.css";
 import Footer from "../components/Footer/Footer";
-
+import Pagination from "../components/pagination/Pagination";
 const Latest = () => {
   const [data, setData] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
@@ -43,13 +43,13 @@ const Latest = () => {
       <div className="container mt-3">
         <div className="row">
           <div className="col">
-            <p className="text-start">Latest</p>
+          <Pagination />
           </div>
-          <div className="col-2">
+          <div style={{ width: "270px" }}>
             <input
               type="text"
               className="form-control"
-              placeholder="Search Latest"
+              placeholder="Search Shows"
               value={searchQuery}
               onChange={handleSearchChange}
             />
@@ -72,6 +72,7 @@ const Latest = () => {
           </div>
         );
       })}
+     
       <Footer />
     </>
   );

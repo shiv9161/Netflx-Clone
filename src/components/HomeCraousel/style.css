@@ -29,3 +29,132 @@
     color: white;
     font-size: 2rem;
 }
+
+
+@media (max-width: 576px) {
+    .poster-logo{
+      position: absolute;
+      top: 80px;
+      left: 25px;
+    }
+    .poster-para {
+        position: absolute;
+        top: 150px;
+        font-size: 11px;
+      }
+    .poster-line{
+       position: absolute;
+       top: 170px;
+       color: white;
+       text-align: justify;
+       width: 60%;
+       font-size: 10px;
+    }
+    .poster-btn{
+        position: absolute;
+        top: 240px;
+        width: 200px;
+    }
+    .poster-trailer {
+        position: absolute;
+        top: 285px;
+        color: white;
+        font-size: 20px;
+    }
+}
+
+/* @media (min-width: 577px) and (max-width: 768px) {
+    .poster-logo{
+        position: absolute;
+        top: 80px;
+        left: 25px;
+      }
+      .poster-para {
+          position: absolute;
+          top: 175px;
+          font-size: 14px;
+        }
+      .poster-line{
+         position: absolute;
+         top: 200px;
+         color: white;
+         text-align: justify;
+         width: 60%;
+         font-size: 14px;
+      }
+      .poster-btn{
+          position: absolute;
+          top: 300px;
+          width: 200px;
+      }
+      .poster-trailer {
+          position: absolute;
+          top: 360px;
+          color: white;
+          font-size: 20px;
+      }
+} */
+
+/* @media (min-width: 769px) and (max-width: 992px) {
+    .poster-logo{
+        position: absolute;
+        top: 80px;
+        left: 25px;
+      }
+      .poster-para {
+          position: absolute;
+          top: 210px;
+          font-size: 18px;
+        }
+      .poster-line{
+         position: absolute;
+         top: 250px;
+         color: white;
+         text-align: justify;
+         width: 60%;
+         font-size: 18px;
+      }
+      .poster-btn{
+          position: absolute;
+          top: 380px;
+          width: 200px;
+      }
+      .poster-trailer {
+          position: absolute;
+          top: 440px;
+          color: white;
+          font-size: 30px;
+      }
+  } */
+  
+/* @media (min-width: 993px) {
+    .poster-logo{
+        position: absolute;
+        top: 80px;
+        left: 25px;
+      }
+      .poster-para {
+          position: absolute;
+          top: 210px;
+          font-size: 18px;
+        }
+      .poster-line{
+         position: absolute;
+         top: 250px;
+         color: white;
+         text-align: justify;
+         width: 60%;
+         font-size: 18px;
+      }
+      .poster-btn{
+          position: absolute;
+          top: 380px;
+          width: 200px;
+      }
+      .poster-trailer {
+          position: absolute;
+          top: 440px;
+          color: white;
+          font-size: 30px;
+      }
+} */

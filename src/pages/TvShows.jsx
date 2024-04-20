@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../App.css";
 import Footer from "../components/Footer/Footer";
+import Pagination from "../components/pagination/Pagination";
 
 const TvShows = () => {
   const [data, setData] = useState([]);
@@ -41,9 +42,9 @@ const TvShows = () => {
       <div className="container mt-3">
         <div className="row">
           <div className="col">
-            <p className="text-start">TV Shows</p>
+            <Pagination />
           </div>
-          <div className="col-2">
+          <div style={{ width: "270px" }}>
             <input
               type="text"
               className="form-control"
