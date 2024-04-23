@@ -4,8 +4,6 @@ import Logo from "../../static/godlogo.png";
 import "./style.css";
 import { FaPlay } from "react-icons/fa";
 import { HiOutlinePlus } from "react-icons/hi";
-// import Footer from "../Footer/Footer";
-
 const HomeCraousel = () => {
   return (
     <div>
