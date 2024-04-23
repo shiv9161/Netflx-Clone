@@ -124,7 +124,7 @@ const TvShows = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">
-                    {item.title.slice(0, 15)}
+                    {item.title.slice(0, 10)}
                   </h5>
                 </div>
               </div>
