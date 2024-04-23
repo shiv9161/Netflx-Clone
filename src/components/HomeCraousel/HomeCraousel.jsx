@@ -9,11 +9,11 @@ const HomeCraousel = () => {
     <div>
       <img className="img-fluid" src={Wallpaper2} alt="" />
       <div className="container">
-        <div>
+        {/* <div>
           <img className="img-fluid poster-logo" src={Logo} alt="poster logo" />
-        </div>
+        </div> */}
 
-        <div>
+        {/* <div>
           <p className="poster-para">2020 | 16+ | 1h 55min | Action</p>
           <p className="poster-line col-4">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda
@@ -21,9 +21,9 @@ const HomeCraousel = () => {
             porro deserunt dignissimos numquam. Harum in, deserunt autem
             pariatur optio sed voluptatem commodi. Ipsum cum molestias, aperiam!
           </p>
-        </div>
+        </div> */}
 
-        <div className="poster-btn">
+        {/* <div className="poster-btn">
           <button className="btn btn-danger" style={{ marginRight: "10px" }}>
             <FaPlay /> PLAY
           </button>
@@ -37,7 +37,7 @@ const HomeCraousel = () => {
             <FaPlay />
             <b> WATCH TRAILER</b>
           </p>
-        </div>
+        </div> */}
       </div>
       {/* <Footer /> */}
     </div>
