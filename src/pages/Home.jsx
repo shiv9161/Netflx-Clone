@@ -1,12 +1,14 @@
 import React from "react";
 import HomeCraousel from "../components/HomeCraousel/HomeCraousel";
-// import Footer from "../components/Footer/Footer";
+import CardSlider from "../components/cardSlider/CardSlider";
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
   return (
     <div>
       <HomeCraousel />
-      {/* <Footer /> */}
+      <CardSlider />
+      <Footer />
     </div>
   );
 };

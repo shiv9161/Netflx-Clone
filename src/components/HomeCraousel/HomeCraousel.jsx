@@ -4,7 +4,7 @@ import Logo from "../../static/godlogo.png";
 import "./style.css";
 import { FaPlay } from "react-icons/fa";
 import { HiOutlinePlus } from "react-icons/hi";
-import Footer from "../Footer/Footer";
+// import Footer from "../Footer/Footer";
 
 const HomeCraousel = () => {
   return (
@@ -41,7 +41,7 @@ const HomeCraousel = () => {
           </p>
         </div>
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };

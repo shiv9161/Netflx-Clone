@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Netflix from "../../static/netflix-logo-png-large.png";
+// import Netflix from "../../static/netflix-logo-png-large.png";
 import "./style.css";
 
 const MyNavbar = () => {
@@ -8,10 +8,8 @@ const MyNavbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         {/* Logo */}
-        <a className="navbar-brand" href="/">
-          <img src={Netflix} alt="Logo" className="img-fluid netflix-logo" />
-        </a>
-
+        {/* <img src={Netflix} alt="Logo" className="img-fluid netflix-logo" /> */}
+        <b style={{ color: "red", fontSize: "25px" }}>NETFLIX</b>
         {/* Navbar toggler for mobile */}
         <button
           className="navbar-toggler"
@@ -45,7 +43,7 @@ const MyNavbar = () => {
             </li>
             <li className="nav-item">
               <Link to="/movies" className="nav-link">
-                Moives
+                Movies
               </Link>
             </li>
           </ul>
