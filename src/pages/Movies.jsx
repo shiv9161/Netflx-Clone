@@ -6,7 +6,7 @@ const TvShows = () => {
   const [data, setData] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
   const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage] = useState(9); // Number of items to display per page
+  const [itemsPerPage] = useState(12); // Number of items to display per page
 
   useEffect(() => {
     getData();
@@ -29,8 +29,8 @@ const TvShows = () => {
 
   // Function to handle search input change
   const handleSearchChange = (e) => {
-    setCurrentPage(1); // Reset page to 1 when search query changes
     setSearchQuery(e.target.value);
+    setCurrentPage(1); // Reset page to 1 when search query changes
   };
 
   // Filter data based on search query
@@ -111,7 +111,7 @@ const TvShows = () => {
         </div>
       </div>
 
-      {/* Render current page items */}
+      {/* Render filtered data */}
       <div className="container mt-3">
         <div className="row">
           {currentItems.map((item) => (
@@ -124,7 +124,7 @@ const TvShows = () => {
                 />
                 <div className="card-body">
                   <h5 className="card-title text-center">
-                    {item.title.slice(0, 10)}
+                    {item.title.slice(0, 15)}
                   </h5>
                 </div>
               </div>

@@ -91,91 +91,84 @@
     "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
   },
   {
-    "title": "Schindler",
-    "year": 1993,
-    "director": "Steven Spielberg",
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
     "genre": [
-      "Biography",
-      "Drama",
-      "History"
+      "Action",
+      "Adventure",
+      "Sci-Fi"
     ],
-    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_.jpg"
   },
   {
-    "title": "Schindler",
-    "year": 1993,
-    "director": "Steven Spielberg",
+    "title": "Shawshank",
+    "year": 1994,
+    "director": "Frank Darabont",
     "genre": [
-      "Biography",
-      "Drama",
-      "History"
+      "Drama"
     ],
-    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg"
   },
   {
-    "title": "Schindler",
-    "year": 1993,
-    "director": "Steven Spielberg",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
     "genre": [
-      "Biography",
-      "Drama",
-      "History"
+      "Crime",
+      "Drama"
     ],
-    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg"
   },
   {
-    "title": "Schindler",
-    "year": 1993,
-    "director": "Steven Spielberg",
+    "title": "Dark Knight",
+    "year": 2008,
+    "director": "Christopher Nolan",
     "genre": [
-      "Biography",
-      "Drama",
-      "History"
+      "Action",
+      "Crime",
+      "Drama"
     ],
-    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg"
   },
   {
-    "title": "Schindler",
-    "year": 1993,
-    "director": "Steven Spielberg",
+    "title": "Godfather",
+    "year": 1972,
+    "director": "Francis Ford Coppola",
     "genre": [
-      "Biography",
-      "Drama",
-      "History"
+      "Crime",
+      "Drama"
     ],
-    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmNWYtYzZlODY3ZTk3OTFlXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
   },
   {
-    "title": "Schindler",
-    "year": 1993,
-    "director": "Steven Spielberg",
+    "title": "Forrest Gump",
+    "year": 1994,
+    "director": "Robert Zemeckis",
     "genre": [
-      "Biography",
       "Drama",
-      "History"
+      "Romance"
     ],
-    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg"
   },
   {
-    "title": "Schindler",
-    "year": 1993,
-    "director": "Steven Spielberg",
+    "title": "The Matrix",
+    "year": 1999,
+    "director": "Lana Wachowski, Lilly Wachowski",
     "genre": [
-      "Biography",
-      "Drama",
-      "History"
+      "Action",
+      "Sci-Fi"
     ],
-    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
-  }, {
-    "title": "Schindler",
-    "year": 1993,
-    "director": "Steven Spielberg",
+    "image_url": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "title": "Fight Club",
+    "year": 1999,
+    "director": "David Fincher",
     "genre": [
-      "Biography",
-      "Drama",
-      "History"
+      "Drama"
     ],
-    "image_url": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmRhYy00NWE2LTg3YzItYTk3M2UwOTU5Njg4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_FMjpg_UX1000_.jpg"
+    "image_url": "https://m.media-amazon.com/images/M/MV5BMmEzNTkxYjQtZTc0MC00YTVjLTg5ZTEtZWMwOWVlYzY0NWIwXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_FMjpg_UX1000_.jpg"
   },
   {
     "title": "Schindler",
