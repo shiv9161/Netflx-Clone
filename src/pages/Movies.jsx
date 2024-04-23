@@ -115,7 +115,7 @@ const TvShows = () => {
       <div className="container mt-3">
         <div className="row">
           {currentItems.map((item) => (
-            <div className="col-md-4 mb-3" key={item.id}>
+            <div className="col-lg-2 col-md-4 mb-4 col-6" key={item.id}>
               <div className="card latestCard">
                 <img
                   src={item.image}

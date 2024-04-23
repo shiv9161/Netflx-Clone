@@ -1,45 +1,57 @@
 import React from "react";
-import { Navbar, Container, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Netflix from "../../static/netflix-logo-png-large.png";
 import "./style.css";
 
 const MyNavbar = () => {
   return (
-    <Navbar bg="dark" expand="lg">
-      <Container>
-        {/* Logo on the left side */}
-        <Navbar.Brand href="#home">
-          <img
-            src={Netflix} // Replace with the path to your logo image
-            height="30"
-            alt="Logo"
-          />
-        </Navbar.Brand>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container-fluid">
+        {/* Logo */}
+        <a className="navbar-brand" href="/">
+          <img src={Netflix} alt="Logo" className="img-fluid netflix-logo" />
+        </a>
 
-        {/* Menu items centered */}
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse
-          id="basic-navbar-nav"
-          className="justify-content-center"
+        {/* Navbar toggler for mobile */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <Nav>
-            <Link className="nav-link active text-white" to="/">
-              Home
-            </Link>
-            <Link className="nav-link active text-white" to="/latest">
-              Latest
-            </Link>
-            <Link className="nav-link active text-white" to="/tvshows">
-              Tv Shows
-            </Link>
-            <Link className="nav-link active text-white" to="/movies">
-              Movies
-            </Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
+        {/* Navbar links */}
+        <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li className="nav-item">
+              <Link to="/" className="nav-link">
+                Home
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/latest" className="nav-link">
+                Latest
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/tvshows" className="nav-link">
+                Tv Shows
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/movies" className="nav-link">
+                Moives
+              </Link>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   );
 };
 
