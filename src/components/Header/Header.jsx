@@ -6,11 +6,9 @@ import "./style.css";
 const MyNavbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container-fluid">
-        {/* Logo */}
-        {/* <img src={Netflix} alt="Logo" className="img-fluid netflix-logo" /> */}
+      <div className="container">
         <b style={{ color: "red", fontSize: "25px" }}>NETFLIX</b>
-        {/* Navbar toggler for mobile */}
+        {/* toggle */}
         <button
           className="navbar-toggler"
           type="button"
