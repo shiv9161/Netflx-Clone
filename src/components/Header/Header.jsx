@@ -44,6 +44,11 @@ const MyNavbar = () => {
                 Movies
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/addform" className="nav-link">
+                Add Data
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

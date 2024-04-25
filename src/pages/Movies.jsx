@@ -97,6 +97,7 @@ const TvShows = () => {
         </div>
       </div>
 
+      {/* Footer  */}
       <Footer />
     </>
   );
