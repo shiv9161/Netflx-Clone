@@ -1,58 +1,49 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Netflix from "../../static/netflix-logo-png-large.png";
+import { Navbar, Nav } from "react-bootstrap";
+import Netflix from "../../static/netflix-logo-png-large.png";
 import "./style.css";
 
 const MyNavbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div className="container">
-        <b style={{ color: "red", fontSize: "25px" }}>NETFLIX</b>
-        {/* toggle */}
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
-
-        {/* Navbar links */}
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-              <Link to="/" className="nav-link">
-                Home
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/latest" className="nav-link">
-                Latest
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/tvshows" className="nav-link">
-                Tv Shows
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/movies" className="nav-link">
-                Movies
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link to="/addform" className="nav-link">
-                Add Data
-              </Link>
-            </li>
-          </ul>
+    <>
+      <div className="container-fluid">
+        <div className="row">
+          <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar.Brand as={Link} to="/">
+              <img
+                src={Netflix}
+                alt="Netflix Logo"
+                style={{ width: "100px", marginLeft: "15px" }}
+              />
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse
+              id="responsive-navbar-nav"
+              className="justify-content-end"
+            >
+              <Nav style={{ marginRight: "15px" }}>
+                <Nav.Link as={Link} to="/">
+                  Home
+                </Nav.Link>
+                <Nav.Link as={Link} to="/latest">
+                  Latest
+                </Nav.Link>
+                <Nav.Link as={Link} to="/tvshows">
+                  Tv Shows
+                </Nav.Link>
+                <Nav.Link as={Link} to="/movies">
+                  Movies
+                </Nav.Link>
+                <Nav.Link as={Link} to="/addform">
+                  Add Data
+                </Nav.Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
         </div>
       </div>
-    </nav>
+    </>
   );
 };
 
