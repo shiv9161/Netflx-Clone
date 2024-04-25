@@ -50,14 +50,18 @@ const TvShows = () => {
   return (
     <>
       {/* Search functionality */}
-      <div style={{ width: "270px" }}>
-        <input
-          type="text"
-          className="form-control"
-          placeholder="Search Shows"
-          value={searchQuery}
-          onChange={handleSearchChange}
-        />
+      <div className="container mt-3">
+        <div className="row">
+          <div style={{ width: "270px" }}>
+            <input
+              type="text"
+              className="form-control"
+              placeholder="Search Shows"
+              value={searchQuery}
+              onChange={handleSearchChange}
+            />
+          </div>
+        </div>
       </div>
 
       {/* Render filtered data */}
